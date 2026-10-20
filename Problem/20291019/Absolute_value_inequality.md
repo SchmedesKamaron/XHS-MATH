@@ -40,8 +40,7 @@ $$|a| \ge 3 \iff a \ge 3 \quad \text{或} \quad a \le -3$$
 $$(-\infty,-3]\cup[3,+\infty)$$
 
 > [!NOTE]
- <span style="background-color:#fff2cc;">举一反三</span>
-> 
+> ## 举一反三
 > 若关于 $x$ 的不等式
 >
 > $$|x+1|+|x-2|+|x-3| \ge 2a^2-4a+6$$

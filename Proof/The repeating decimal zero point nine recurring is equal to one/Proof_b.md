@@ -1,27 +1,30 @@
 # 对「  $0.\overline{9}\neq 1$  」错误论证的严谨驳斥
-![小红书博主@小祥不想上班 Id：63538104987](image/image_1.png)
+# [小红书博主@小祥不想上班 Id：63538104987](https://xhslink.cn/o/7h9r0pPDaav)
+![小红书博主@小祥不想上班 Id：63538104987](https://github.com/SchmedesKamaron/XHS-MATH/blob/main/image/image_1.png)
 ## [1. 复述原论证](https://www.rednote.com/discovery/item/697de6240000000021028d45?app_platform=harmony&app_version=9.52.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBxx19JdZUJtBJSW-_2L2AZju6wtGn1tp658vnB4Lmfkc=&author_share=1&share_id=c96bd8fd3a2d42858c1757f4a64e1bb9&track_code=7h9r0pPDaav)
+
+
 手写推导的逻辑链条整理如下：
-1. 将循环小数 $0.\overline{9}$ 等同于有限截断形式
+1. 将循环小数  $0.\overline{9}$  等同于有限截断形式
 
-$$
+$$  
 \frac{\overbrace{999\cdots 9}^{n\text{ 位}}}{10^n}
-$$
+$$  
 
-并标注条件“$n$ 趋于无穷大”；
+并标注条件“  $n$   趋于无穷大”；  
 2. 对等式 $\displaystyle\frac{\overbrace{999\cdots 9}^{n\text{ 位}}}{10^n}=1$ 做移项，得到
 
 $$
 \overbrace{999\cdots 9}^{n\text{ 位}} = 10^n;
 $$
-
+  
 3. 由于对任意有限正整数 $n$，恒有
 
 $$
 \overbrace{999\cdots 9}^{n\text{ 位}} = 10^n - 1 \neq 10^n,
-
 $$
-据此得出结论：$0.\overline{9}\neq 1$。
+
+据此得出结论：  $0.\overline{9}\neq 1$  。  
 
 ## 2. 实分析标准定义
 按照无限小数的规范定义：
@@ -54,6 +57,7 @@ $\displaystyle\lim_{n\to\infty}a_n = L$ 的含义为：
 $$
 \forall \varepsilon>0,\ \exists N\in\mathbb N,\ \forall n\in\mathbb N,\ n>N \implies |a_n - L|<\varepsilon.
 $$
+
 极限定义**不要求存在某个下标 $n$，使得 $a_n = L$**，它只要求：当下标充分大时，数列各项与 $L$ 的距离可以小于任意预先给定的正数 $\varepsilon$。
 
 ### 严格证明 $\displaystyle\lim_{n\to\infty}\left(1-\frac{1}{10^n}\right)=1$

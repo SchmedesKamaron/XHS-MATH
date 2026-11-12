@@ -1,4 +1,4 @@
-# 对  $0.\overline{9}\neq 1$  」错误论证的严谨驳斥
+# 对  $0.\overline{9}\neq 1$  错误论证的严谨驳斥
 ### [小红书博主@小祥不想上班 id：63538104987](https://xhslink.cn/o/7h9r0pPDaav)
 ![小红书博主@小祥不想上班 Id：63538104987](https://github.com/SchmedesKamaron/XHS-MATH/blob/main/image/image_1.png)
 ## [1. 复述原论证](https://www.rednote.com/discovery/item/697de6240000000021028d45?app_platform=harmony&app_version=9.52.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBxx19JdZUJtBJSW-_2L2AZju6wtGn1tp658vnB4Lmfkc=&author_share=1&share_id=c96bd8fd3a2d42858c1757f4a64e1bb9&track_code=7h9r0pPDaav)

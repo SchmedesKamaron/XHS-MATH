@@ -19,7 +19,7 @@ $$
 
 The sequence $\{s_n\}_{n\in\mathbb N}$ is a sequence of rational numbers. We first verify that $\{s_n\}$ is a Cauchy sequence, hence converges in $\mathbb R$ by the completeness axiom of real numbers.
 
-Take arbitrary $\varepsilon>0$. Choose $N\in\mathbb N$ such that $10^{-N}<\varepsilon$. For all integers $m>n>N$:
+Take arbitrary $\varepsilon>0$. Choose $N\in\mathbb N$ such that $10^{-N}<\varepsilon$. For all integers  $m>n>N$  :
 
 $$
 |s_m-s_n|=\left|\sum_{k=n+1}^m \frac{9}{10^k}\right|
@@ -27,7 +27,7 @@ $$
 =10^{-n}-10^{-m}<10^{-n}<\varepsilon.
 $$
 
-Thus $\{s_n\}$ is Cauchy, so $\lim\limits_{n\to\infty}s_n$ exists in $\mathbb R$.
+Thus  $\{s_n\}$  is Cauchy, so $\lim\limits_{n\to\infty}s_n$ exists in $\mathbb R$.
 
 ## Proof 1: Evaluation via Infinite Series
 We have
@@ -107,19 +107,6 @@ $$
 0.\overline{9}=1.
 $$
 
-## Proof 3: Order Argument (Dedekind Cut / Density Form)
-Suppose, for contradiction, that $0.\overline{9}<1$. By the density of $\mathbb Q$ in $\mathbb R$, there exists some rational number $q$ such that
-$$
-0.\overline{9}<q<1.
-$$
-Write $q$ in decimal form $q=0.q_1q_2q_3\cdots$. Since $q<1$, its decimal expansion is bounded above by $0.999\cdots$. If $q>0.\overline{9}$, then there exists an index $m$ such that for all $k<m$, $q_k=9$ and $q_m>9$, which is impossible because every decimal digit satisfies $0\le q_k\le 9$. Therefore no such $q$ exists.
-
-For real numbers, if $a\le b$ and there is no real strictly between $a$ and $b$, then $a=b$. Since $0.\overline{9}\le 1$ and there is no real $y$ with $0.\overline{9}<y<1$, we obtain
-
-$$
-0.\overline{9}=1.
-$$
-
 ## Heuristic Algebraic Argument (Not Foundationally Rigorous)
 The popular $10x-x=9$ argument is intuitive but assumes without justification that we may multiply and subtract infinite decimal expansions termwise, which is not an axiom; it is a consequence of limit properties we proved above.
 Let $x=0.\overline{9}$. If we formally manipulate:
@@ -134,5 +121,41 @@ $$
 
 This is a useful illustration, but it depends on the prior convergence and linearity results established above.
 
-## Remark
-Within the standard real number system, $0.\overline{9}$ and $1$ are two distinct decimal representations of the same real number. Uniqueness of decimal expansions fails precisely for numbers that are finite dyadic/decimal rationals; they admit one terminating expansion and one expansion ending in an infinite string of nines. This is a feature of the decimal representation, not a contradiction in the real numbers.
+## Remark: Order Argument as Auxiliary Reasoning
+This is not treated as a primary proof, but an auxiliary consistency check.
+
+Suppose, for contradiction, that $0.\overline{9}<1$. Let $L:=0.\overline{9}$. Then $1-L>0$. By the density of $\mathbb Q$ in $\mathbb R$, there exists a rational number $q$ such that
+
+$$
+L < q < 1.
+$$
+
+Recall $s_n = 1 - 10^{-n}$ and $L = \lim_{n\to\infty} s_n$. Set $\delta = q - L > 0$. By the definition of limit, there exists some $N\in\mathbb N$ such that for all $n > N$,
+
+$$
+|s_n - L| < \delta.
+$$
+
+Since $s_n > L$, this gives
+
+$$
+s_n - L < q - L \implies s_n < q,\quad \forall n>N.
+$$
+
+But $s_n = 1 - 10^{-n}$, so
+
+$$
+1 - \frac{1}{10^{n}} < q \implies 1 - q < \frac{1}{10^{n}},\quad \forall n>N.
+$$
+
+However, we may choose an integer $n_0 > N$ large enough so that $10^{-n_0} < 1-q$, which yields
+
+$$
+1 - q < \frac{1}{10^{n_0}} < 1 - q,
+$$
+
+a contradiction. Therefore the assumption $0.\overline{9}<1$ is false. Since $0.\overline{9}\le 1$ holds trivially for every partial sum $s_n\le 1$, we obtain $0.\overline{9}=1$.
+
+Informally, if there were any real number strictly between $0.\overline{9}$ and $1$, it would have to be larger than every truncation $0.99\cdots9$; but for any candidate $q<1$, we can find a sufficiently long finite sequence of $9$’s that already exceeds $q$.
+
+Within the standard real number system, $0.\overline{9}$ and $1$ are two distinct decimal representations of the same real number. Uniqueness of decimal expansions fails precisely for numbers that are finite decimal rationals; they admit one terminating expansion and one expansion ending in an infinite string of nines. This is a feature of the decimal representation, not a contradiction in the real numbers.

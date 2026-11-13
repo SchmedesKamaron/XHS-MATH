@@ -1,3 +1,6 @@
+
+![image_2](https://github.com/SchmedesKamaron/XHS-MATH/blob/main/image/image_2.png)
+[作者](mailto:zoexiong@fantastic-studio.top)
 ### 证明
 求证：当  $x \ge 1$   时，
 

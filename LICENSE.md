@@ -10,3 +10,7 @@ No additional restrictions may be imposed. You may not apply legal terms or tech
 This license applies only to the textual and mathematical content stored in this repository. It does not extend to any third-party assets, external links, or separately copyrighted works referenced herein.
 
 By submitting problems, solutions or other contributions via the designated email address, each contributor confirms that they hold sufficient rights to their submission, and grants the repository maintainer a non‑exclusive, perpetual, worldwide, royalty‑free right and license to publish, reproduce, modify, distribute and display that contribution under the CC BY 4.0 license.
+
+***
+
+This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">

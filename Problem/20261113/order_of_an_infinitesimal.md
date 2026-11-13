@@ -12,7 +12,7 @@ $$
 \sqrt[3]{x^2}-\sqrt{x}=x^{\frac{2}{3}} - x^{\frac12}
 $$  
 
-比较指数：$\dfrac12 < \dfrac{2}{3}$  ，$x\to 0^+$ 时 $x^{\frac12}$   是主导项。
+比较指数：  $\dfrac12 < \dfrac{2}{3}$  ， $x\to 0^+$  时  $x^{\frac12}$    是主导项。
 
 $$
 \lim_{x\to 0^+}\frac{x^{\frac{2}{3}} - x^{\frac12}}{x^{\frac12}}

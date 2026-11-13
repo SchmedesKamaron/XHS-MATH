@@ -1,6 +1,9 @@
 ### 求极限：
 
+Evaluate the limit:
+
 $$
-\lim_{x\to 0}\left( \frac{1+\int_{0}^{x}e^{t^2}\,\mathrm dt}{e^x + \sin x} \right)^{\dfrac{1}{x^3}}
+\lim_{n\to\infty} \left( \left(1+\frac{1}{n}\right)^{n+\frac12} \bigg/ e \right)^n
 $$
 
+***

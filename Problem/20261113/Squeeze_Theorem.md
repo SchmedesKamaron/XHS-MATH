@@ -1,3 +1,6 @@
+![image_3](https://github.com/SchmedesKamaron/XHS-MATH/blob/main/image/image_3.png)
+## [作者：@Zoe Xiong](mailto:zoexiong@fantastic-studio.top)
+
 ### 证明
 设 $\{x_n\}$ 为任意数列，要证极限
 

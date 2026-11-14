@@ -136,7 +136,7 @@ $$
 |s_n - L| < \delta.
 $$
 
-Since $s_n > L$, this gives
+Since $s_n < L$, this gives
 
 $$
 s_n - L < q - L \implies s_n < q,\quad \forall n>N.

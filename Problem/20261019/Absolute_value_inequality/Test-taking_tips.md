@@ -1,4 +1,5 @@
-# Universal Criterion for Parameter-Dependent Inequalities: Always-True and Solution-Existence Problems
+## Universal Criterion for Parameter-Dependent Inequalities: Always-True and Solution-Existence Problems
+## 参数相关不等式的通用判定准则：恒成立与解的存在性问题
 
 ## 第 1 步：整理形式
 
